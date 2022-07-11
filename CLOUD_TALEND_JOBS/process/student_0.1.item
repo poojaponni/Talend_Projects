@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:y5mw0oTJZiDA8ON/RUocBUCK7FfviGjfuUBtS34c"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:T2v1RyCCr1kDrfPwitByVlVVXKnkB9Mmjc4SvCpG"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Fg4mGjxORIK5KXdeK+1qDcp12wgcBa41muyTial1"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:d9YxGbDFDVL3Puh9ZmUPgBpJQ3xxeatAfDzSHmm9"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -152,7 +152,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_1"/>
     <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
     <elementParameter field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#10;     "/>
-    <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#10;// a piece of code executed in the row&#10;// loop&#10;if(row1.CONTROL_SYSTEM&lt;40 &amp;&amp; row1.HR_MANAGEMENT&lt;40 &amp;&amp; SIGNALS_AND_SYSTEM&lt;40)&#10;{System.out.println(row1.FIRSTNAME+&quot; &quot;+row1.LASTNAME+&quot;:&quot;+&quot;FAIL&quot;);}&#10;else{System.out.println(row1.FIRSTNAME+&quot; &quot;+row1.LASTNAME+&quot;:&quot;+&quot;PASS&quot;);}    "/>
+    <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#10;// a piece of code executed in the row&#10;// loop&#10;if(row1.CONTROL_SYSTEM&lt;40 &amp;&amp; row1.HR_MANAGEMENT&lt;40 &amp;&amp; SIGNALS_AND_SYSTEM&lt;40)&#10;{System.out.println(row1.FIRSTNAME+&quot; &quot;+row1.LASTNAME+&quot;:&quot;+&quot;FAIL&quot;);}&#10;else&#10;{System.out.println(row1.FIRSTNAME+&quot; &quot;+row1.LASTNAME+&quot;:&quot;+&quot;PASS&quot;);}    "/>
     <elementParameter field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#10;      "/>
     <elementParameter field="CHECK" name="Version_V2_0" show="false" value="false"/>
     <elementParameter field="CHECK" name="Version_V3_2" show="false" value="false"/>
@@ -244,13 +244,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9aa8b35e-9523-491e-aeeb-6b3892a938e1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Y9PEfqYSS+OBDDtUYvSDkAcVpOI6A5E2Aj/lv8kIs7SVcdjlVStB+MqEDIs8CXLOGq6TXtpuiqbF&#13;
-luBx5ZEMOg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_66bf3efb-ffbc-4bd2-a200-11c630b5869e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vRR0OeSgTJ5aNd5i5L+F+yQo46FZGwYxffvH9GWYjNTrhpl/QMAPUysVWdvaCB0gyakB6/fUFK/u&#13;
-vY3uAR7Rhg==</DigestValue></Reference></SignedInfo><SignatureValue>FvwpqSxTt/ccr9Xr08OYt+zZevSITS7SSt19MUoVyy2S6lWwR+w9CNB2fa7maHDtN7fEXdfos5Xe&#13;
-LnJH2ERrolTbIhYgWHJq6KIyMaoX+XMGMbWcsYyH5hVwYWDJFK1fOl0WzKv9/d96+Y4XjpB6NeuW&#13;
-uQk6brKSsGRTOscPnfApy865xqPGUncPU9cpHOdoZsvFbEqgilQ0PYLZXUv+XioUz4Q/nM0+b+r0&#13;
-zTD/TXPCqRunJd4XDVkASnzE/2oDckzFO8oNBEvPRqa+P5sW5uYoSKr98KAy3y/EppLhKperBMYE&#13;
-e21Cu8/oJClINdvIIQGgBBV5LCJPR3jED1NeJg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_77709f48-9b95-417a-8cae-cb3360038d57"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>j0LOynhEgqHY99Nd9KBPRtHQnluJOnNN41+JFbcTmq21HNpD3P0X0kZDM6akya/2RgStJ3HJJ8If&#13;
+RUhduX+KGQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c788ddc0-c6a6-45c9-a691-26299e034bcc"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>W9g8mNXmfxooaxcY0X4BtORzOP21jOapn1L3PQqorqrsVbDMMBPZPQIqWvKVLtd/hwA64grw7rss&#13;
+W7eFkHyGJA==</DigestValue></Reference></SignedInfo><SignatureValue>YsZ+RlU8ccurMm+oD2+2Q4WG5i7w3ZcdJap889ImnMbNbUBfNFuDE5WLwDm6tCNJygkhstb5c1Eh&#13;
+mu5cG9A1cikGU2cQlyLPZOFk2RTQA9vLDx7bW2TsL4YAfIoNngoIjSAPGaPRIYhW16PUlElVJvRG&#13;
+VMFa4Vak+XYlTwtV3Sy6CfxEVCd6YwRPYZQ2zGe9/wsT+UScZIGoAoMz/6yK50517Ow1x6NlwXuG&#13;
+3u+h3as/1KOnIWvW1cBlWOd7PQE7w7Ua2z12q0rwEd+ezWCovKO6vfv964EbVygBZZMFNebbarG+&#13;
+tsuPdO1XXx/oOGdPv20EK/cc416uqt+zwMhUcg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -272,4 +272,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_66bf3efb-ffbc-4bd2-a200-11c630b5869e" Target="#_9aa8b35e-9523-491e-aeeb-6b3892a938e1"><Timestamp>2022-07-11 12:32:24</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c788ddc0-c6a6-45c9-a691-26299e034bcc" Target="#_77709f48-9b95-417a-8cae-cb3360038d57"><Timestamp>2022-07-11 12:32:59</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
